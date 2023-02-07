@@ -1,7 +1,5 @@
 {
 	"name": "my-plugin",
-	"version": "0.0.1",
-	"license": "MIT",
 	"files": [
 		"dist"
 	],
@@ -11,8 +9,7 @@
 		".": {
 			"import": "./dist/simple-demo-component.mjs",
 			"require": "./dist/simple-demo-component.umd.cjs"
-		},
-		"./style.css": "./dist/style.css"
+		}
 	},
 	"scripts": {
 		"dev": "vite",
@@ -24,10 +21,6 @@
 	},
 	"devDependencies": {
 		"@vitejs/plugin-vue": "^4.0.0",
-		"eslint": "^8.31.0",
-		"eslint-config-prettier": "^8.5.0",
-		"eslint-plugin-vue": "^9.8.0",
-		"prettier": "^2.8.1",
 		"vite": "^4.0.0"
 	}
 }
