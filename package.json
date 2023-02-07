@@ -1,0 +1,33 @@
+{
+	"name": "my-plugin",
+	"version": "0.0.1",
+	"license": "MIT",
+	"files": [
+		"dist"
+	],
+	"main": "./dist/my-plugin.umd.cjs",
+	"module": "./dist/my-plugin.mjs",
+	"exports": {
+		".": {
+			"import": "./dist/my-plugin.mjs",
+			"require": "./dist/my-plugin.umd.cjs"
+		},
+		"./style.css": "./dist/style.css"
+	},
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"vue": "^3.2.45"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^4.0.0",
+		"eslint": "^8.31.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-vue": "^9.8.0",
+		"prettier": "^2.8.1",
+		"vite": "^4.0.0"
+	}
+}
