@@ -5,12 +5,12 @@
 	"files": [
 		"dist"
 	],
-	"main": "./dist/my-plugin.umd.cjs",
-	"module": "./dist/my-plugin.mjs",
+	"main": "./dist/simple-demo-component.umd.cjs",
+	"module": "./dist/simple-demo-component.mjs",
 	"exports": {
 		".": {
-			"import": "./dist/my-plugin.mjs",
-			"require": "./dist/my-plugin.umd.cjs"
+			"import": "./dist/simple-demo-component.mjs",
+			"require": "./dist/simple-demo-component.umd.cjs"
 		},
 		"./style.css": "./dist/style.css"
 	},
