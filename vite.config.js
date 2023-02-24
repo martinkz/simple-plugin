@@ -10,6 +10,7 @@ export default defineConfig({
 			name: "SimpleDemoComponent",
 			// the proper extensions will be added
 			fileName: "simple-demo-component",
+			formats: ["es", "umd", "iife"],
 		},
 		rollupOptions: {
 			// make sure to externalize deps that shouldn't be bundled
