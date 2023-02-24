@@ -1,5 +1,5 @@
 import SimpleDemoComponent from "./SimpleDemoComponent.vue";
 
-export function SimpleTestPlugin(app) {
+export default function (app) {
 	app.component("SimpleDemoComponent", SimpleDemoComponent);
 }
